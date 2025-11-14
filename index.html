@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Despacho de abogados en Madrid y con asistencia online en todo el territorio nacional. Reclamamos tarjetas revolving, préstamos usurarios, hipotecas con cláusulas abusivas, estafas bancarias y mucho más. ¡CONSULTA DE VIABILIDAD GRATUITA!">
+    <meta name="keywords" content="abogados, abogados Madrid, despacho, derecho civil, asesoría, Jurentis, Jurentis abogados, consumo, tarjetas de crédito, préstamo, revolving, seguros, asnef, cirbe, estafa, WIZINK, CETELEM, COFIDIS, BANKINTER, ONEY, VIVUS, MONEYMAN, clausula suelo, comisión impagados">
+    <meta name="author" content="Jurentis">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Jurentis - Abogados">
+    <meta property="og:description" content="Despacho de abogados en Madrid con experiencia en derecho civil, penal y laboral. Contacta para una consulta gratuita.">
+    <meta property="og:type" content="website">
+    <title>Jurentis - Abogados</title>
+    <link rel="icon" href="/images/logo.png" type="image/png" sizes="64x64">
+    
+    <!-- Bootstrap + Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- TU CSS (con banner de cookies ya integrado) -->
+    <link rel="stylesheet" href="styles.css?v=7.3">
+
+    <!-- GSAP para óvalos premium -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+   <!-- LOGO + ORGANIZACIÓN (para Google Knowledge Panel) -->
+    <link rel="icon" href="https://jurentis.es/images/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="https://jurentis.es/images/logo.png">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Jurentis Abogados",
+      "url": "https://jurentis.es",
+      "logo": "https://jurentis.es/images/logo.png",
+      "description": "Despacho de abogados en Madrid especializado en reclamaciones de tarjetas revolving, préstamos usurarios, hipotecas abusivas y derecho de consumo. Consulta gratuita en 24h.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Madrid",
+        "addressRegion": "Madrid",
+        "addressCountry": "ES"
+      },
+      "telephone": "+34672857131",
+      "sameAs": [
+        "https://www.instagram.com/jurentis.abogados",
+        "https://www.facebook.com/profile.php?id=61552211551555",
+        "https://www.tiktok.com/@jurentis"
+      ]
+    }
+    </script>
+    
+    <!-- Canonical para evitar duplicados -->
+    <link rel="canonical" href="https://jurentis.es/">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo.png" alt="Jurentis" class="me-2" loading="lazy" style="height: 55px;">
+                Jurentis
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#viabilidad">Viabilidad</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#preguntas-frecuentes">Preguntas Frecuentes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero text-white text-center py-5 position-relative overflow-hidden">
+        <canvas id="particles-canvas" class="position-absolute top-0 start-0 w-100 h-100"></canvas>
+        <div class="fallback-bg"></div>
+        <div class="container position-relative" style="z-index: 2;">
+            <h1 class="display-4 fw-bold">Jurentis</h1>
+            <p class="lead">La firma legal en la que puedes confiar, en todo el territorio nacional.</p>
+            <div class="btn-center-wrapper mt-4">
+                <a href="https://wa.me/+34672857131?text=Hola,%20quiero%20una%20consulta%20gratuita" 
+                   class="btn-consulta mx-auto d-block" target="_blank">
+                    CONSULTA A UN ABOGADO GRATIS
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIABILIDAD INMEDIATA -->
+    <section id="viabilidad" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="title-wrapper">
+                    <h2>Viabilidad Inmediata</h2>
+                    <div class="title-oval">
+                        <svg viewBox="0 0 560 240" preserveAspectRatio="none">
+                            <defs>
+                                <filter id="glow-viabilidad" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur stdDeviation="6" result="blur"/>
+                                    <feFlood flood-color="#64ccc5" flood-opacity="0.5"/>
+                                    <feComposite in2="blur" operator="in"/>
+                                    <feMerge>
+                                        <feMergeNode/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse class="oval-path" cx="280" cy="120" rx="260" ry="85" filter="url(#glow-viabilidad)"/>
+                        </svg>
+                    </div>
+                </div>
+                <p class="text-center mb-5">Elige tu producto, envíanos la documentación y en <strong>menos de 24h</strong> te decimos si puedes reclamar <strong>GRATIS</strong>.</p>
+            </div>
+
+            <!-- 8 TARJETAS DE PRODUCTO -->
+            <div class="row justify-content-center g-3 mb-5">
+                <div class="col-6 col-md-3">
+                    <input type="radio" name="producto" value="Tarjeta revolving" id="prod1" class="d-none" required>
+                    <label for="prod1" class="producto-card d-block text-center p-4 rounded-3 shadow-sm h-100 border border-2">
+                        <div class="card-content d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-credit-card icono d-block mb-2"></i>
+                            <strong class="d-block fw-bold">Tarjeta revolving</strong>
+                            <small class="d-block text-muted text-center">(Wizink, Cofidis, Cetelem, Bankinter...)</small>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-6 col-md-3">
+                    <input type="radio" name="producto" value="Préstamo personal" id="prod2" class="d-none">
+                    <label for="prod2" class="producto-card d-block text-center p-4 rounded-3 shadow-sm h-100 border border-2">
+                        <div class="card-content d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-money-bill-wave icono d-block mb-2"></i>
+                            <strong class="d-block fw-bold">Préstamo personal</strong>
+                            <small class="d-block text-muted text-center">(usura, comisiones)</small>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-6 col-md-3">
+                    <input type="radio" name="producto" value="Hipoteca" id="prod3" class="d-none">
+                    <label for="prod3" class="producto-card d-block text-center p-4 rounded-3 shadow-sm h-100 border border-2">
+                        <div class="card-content d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-home icono d-block mb-2"></i>
+                            <strong class="d-block fw-bold">Hipoteca</strong>
+                            <small class="d-block text-muted text-center">(IRPH, gastos, suelo)</small>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-6 col-md-3">
+                    <input type="radio" name="producto" value="Cuenta corriente" id="prod4" class="d-none">
+                    <label for="prod4" class="producto-card d-block text-center p-4 rounded-3 shadow-sm h-100 border border-2">
+                        <div class="card-content d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-university icono d-block mb-2"></i>
+                            <strong class="d-block fw-bold">Cuenta corriente</strong>
+                            <small class="d-block text-muted text-center">(comisiones)</small>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-6 col-md-3">
+                    <input type="radio" name="producto" value="Línea de crédito" id="prod5" class="d-none">
+                    <label for="prod5" class="producto-card d-block text-center p-4 rounded-3 shadow-sm h-100 border border-2">
+                        <div class="card-content d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-sync-alt icono d-block mb-2"></i>
+                            <strong class="d-block fw-bold">Línea de crédito</strong>
+                            <small class="d-block text-muted text-center">(usura, intereses, comisiones)</small>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-6 col-md-3">
+                    <input type="radio" name="producto" value="Producto inversión" id="prod6" class="d-none">
+                    <label for="prod6" class="producto-card d-block text-center p-4 rounded-3 shadow-sm h-100 border border-2">
+                        <div class="card-content d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-chart-line icono d-block mb-2"></i>
+                            <strong class="d-block fw-bold">Inversión</strong>
+                            <small class="d-block text-muted text-center">(swaps, cripto)</small>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-6 col-md-3">
+                    <input type="radio" name="producto" value="Seguro" id="prod7" class="d-none">
+                    <label for="prod7" class="producto-card d-block text-center p-4 rounded-3 shadow-sm h-100 border border-2">
+                        <div class="card-content d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-shield-alt icono d-block mb-2"></i>
+                            <strong class="d-block fw-bold">Seguro</strong>
+                            <small class="d-block text-muted text-center">(vinculados, cobertura)</small>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-6 col-md-3">
+                    <input type="radio" name="producto" value="Telefonía" id="prod8" class="d-none">
+                    <label for="prod8" class="producto-card d-block text-center p-4 rounded-3 shadow-sm h-100 border border-2">
+                        <div class="card-content d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-mobile-alt icono d-block mb-2"></i>
+                            <strong class="d-block fw-bold">Telefonía</strong>
+                            <small class="d-block text-muted text-center">(permanencia, comisiones)</small>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- FORMULARIO WHATSAPP -->
+            <form id="formViabilidad" class="card p-4 shadow-sm mx-auto" style="max-width: 600px; border-radius: 16px;">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <input type="text" name="nombre" class="form-control form-control-lg" placeholder="Tu nombre *" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="tel" name="telefono" class="form-control form-control-lg" placeholder="Teléfono (WhatsApp) *" required>
+                    </div>
+                    <div class="col-12">
+                        <input type="email" name="email" class="form-control" placeholder="Email (opcional)">
+                    </div>
+                    <div class="col-12 text-center mt-4">
+                        <button type="button" id="btnEnviar" class="btn btn-success btn-lg px-5 d-flex align-items-center justify-content-center gap-2 mx-auto" 
+                                style="min-width: 280px; border-radius: 50px;">
+                            Abrir WhatsApp y enviar documentos
+                        </button>
+                    </div>
+                    <div class="col-12 text-center">
+                        <small class="text-muted">
+                            <strong>Importante:</strong> Al abrir WhatsApp, <strong>envía tu contrato o factura en el chat</strong> para que podamos revisarlo GRATIS en menos de 24h.
+                        </small>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="sobre-nosotros" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <div class="title-wrapper">
+                    <h2>Sobre Nosotros</h2>
+                    <div class="title-oval">
+                        <svg viewBox="0 0 500 240" preserveAspectRatio="none">
+                            <defs>
+                                <filter id="glow-nosotros" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur stdDeviation="6" result="blur"/>
+                                    <feFlood flood-color="#64ccc5" flood-opacity="0.5"/>
+                                    <feComposite in2="blur" operator="in"/>
+                                    <feMerge>
+                                        <feMergeNode/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse class="oval-path" cx="250" cy="120" rx="230" ry="85" filter="url(#glow-nosotros)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">En <strong>JURENTIS</strong> nos adaptamos a las necesidades de cada cliente. Nuestra prioridad es ofrecer una <strong>atención personalizada</strong> y la máxima <strong>eficacia jurídica</strong>. 
+            <a href="#contacto">Contáctanos</a> para resolver tus necesidades jurídicas.</p>
+            <div class="row mt-5">
+                <div class="col-md-4 text-center mb-4">
+                    <div class="value-card p-4 rounded-3 shadow-sm">
+                        <svg class="geo-icon mb-3" viewBox="0 0 60 60" aria-label="Experiencia">
+                            <circle cx="30" cy="30" r="25" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <line x1="30" y1="10" x2="30" y2="50" stroke="currentColor" stroke-width="1.5"/>
+                            <line x1="15" y1="30" x2="45" y2="30" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                        <h3>Experiencia</h3>
+                        <p>Nuestro equipo está formado por una red de socios y aliados estratégicos que permiten ofrecer un servicio integral en todo el territorio nacional.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="value-card p-4 rounded-3 shadow-sm">
+                        <svg class="geo-icon mb-3" viewBox="0 0 60 60" aria-label="Compromiso">
+                            <circle cx="30" cy="30" r="25" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 30 Q30 20, 40 30" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 30 Q30 40, 40 30" fill="none" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <h3>Compromiso</h3>
+                        <p>En JURENTIS, nuestros clientes siempre están informados, acompañados y protegidos. Tus derechos son nuestra mejor estrategia.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="value-card p-4 rounded-3 shadow-sm">
+                        <svg class="geo-icon mb-3" viewBox="0 0 60 60" aria-label="Resultados">
+                            <circle cx="30" cy="30" r="25" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <polygon points="30,15 40,30 30,45 20,30" fill="currentColor" opacity="0.3"/>
+                        </svg>
+                        <h3>Resultados</h3>
+                        <p>Analizamos la viabilidad de cada asunto con rigor. Con ello obtenemos altas tasas de éxito y la máxima satisfacción de nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="bg-light py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <div class="title-wrapper">
+                    <h2>Nuestros Servicios Jurídicos</h2>
+                    <div class="title-oval">
+                        <svg viewBox="0 0 660 240" preserveAspectRatio="none">
+                            <defs>
+                                <filter id="glow-servicios" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur stdDeviation="6" result="blur"/>
+                                    <feFlood flood-color="#64ccc5" flood-opacity="0.5"/>
+                                    <feComposite in2="blur" operator="in"/>
+                                    <feMerge>
+                                        <feMergeNode/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse class="oval-path" cx="330" cy="120" rx="310" ry="85" filter="url(#glow-servicios)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100 text-center p-4 shadow-sm">
+                        <svg class="geo-icon mb-3" viewBox="0 0 60 60" aria-label="Nulidad contrato">
+                            <circle cx="30" cy="30" r="25" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <line x1="15" y1="30" x2="45" y2="30" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="20" r="5" fill="currentColor" opacity="0.3"/>
+                            <circle cx="40" cy="40" r="5" fill="currentColor" opacity="0.3"/>
+                        </svg>
+                        <h3 class="card-title">Nulidad contrato y cláusulas</h3>
+                        <p class="card-text">En algunos productos financieros como hipotecas, tarjetas, créditos o cuentas corrientes se imponen intereses usurarios y comisiones abusivas a los consumidores.<a href="#contacto">Revisa gratis tu contrato</a>.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100 text-center p-4 shadow-sm">
+                        <svg class="geo-icon mb-3" viewBox="0 0 60 60" aria-label="Entrega documentación">
+                            <circle cx="30" cy="30" r="25" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <rect x="20" y="20" width="20" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <line x1="15" y1="15" x2="45" y2="45" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+                        </svg>
+                        <h3 class="card-title">Entrega de documentación</h3>
+                        <p class="card-text">Las entidades están obligadas a facilitar gratuitamente al consumidor una copia del contrato, cuadro de amortización y extractos mensuales. ¿No quieren dártelo? <a href="#contacto">Solicita ayuda</a>.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100 text-center p-4 shadow-sm">
+                        <svg class="geo-icon mb-3" viewBox="0 0 60 60" aria-label="Cancelación datos">
+                            <circle cx="30" cy="30" r="25" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M25 20 L30 35 L35 20" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <line x1="30" y1="35" x2="30" y2="45" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <h3 class="card-title">Cancelación datos ficheros</h3>
+                        <p class="card-text">Reclamamos frente a la entidad que ha dado de alta tus datos por una deuda en un fichero de solvencia como ASNEF, BADEXCUG o CIRBE. <a href="#contacto">Infórmate al respecto</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <div class="title-wrapper">
+                    <h2>Blog y Casos de Éxito</h2>
+                    <div class="title-oval">
+                        <svg viewBox="0 0 570 240" preserveAspectRatio="none">
+                            <defs>
+                                <filter id="glow-blog" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur stdDeviation="6" result="blur"/>
+                                    <feFlood flood-color="#64ccc5" flood-opacity="0.5"/>
+                                    <feComposite in2="blur" operator="in"/>
+                                    <feMerge>
+                                        <feMergeNode/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse class="oval-path" cx="285" cy="120" rx="265" ry="85" filter="url(#glow-blog)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center mb-5">Mantente informado con nuestras noticias legales y descubre cómo hemos ayudado a nuestros clientes.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card blog-card h-100 shadow-sm">
+                        <img src="images/blog1.jpg" class="card-img-top" alt="Financiación con T.A.E. usurario" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title">Financiación de compras con T.A.E. usurario</h3>
+                            <p class="card-text flex-grow-1">Te esperamos como revisar si un interés remuneratorio es o no usurario.</p>
+                            <a href="blog1.html" class="btn-leer-mas mt-auto mx-auto d-block">Leer Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card blog-card h-100 shadow-sm">
+                        <img src="images/blog2.jpg" class="card-img-top" alt="Caso de éxito en derecho civil" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title">Caso de éxito: oposición a un monitorio</h3>
+                            <p class="card-text flex-grow-1">Cómo ayudamos a un cliente a defenderse de un banco que reclamaba 25.678,47€.</p>
+                            <a href="blog2.html" class="btn-leer-mas mt-auto mx-auto d-block">Leer Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card blog-card h-100 shadow-sm">
+                        <img src="images/blog3.jpg" class="card-img-top" alt="Reclamación de deuda" loading="lazy">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title">Reclamación de deuda por empresa de recobro</h3>
+                            <p class="card-text flex-grow-1">Consejos para no pagar intereses o comisiones abusivas e indebidas.</p>
+                            <a href="blog3.html" class="btn-leer-mas mt-auto mx-auto d-block">Leer Más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section id="preguntas-frecuentes" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-4">
+                <div class="title-wrapper">
+                    <h2>Preguntas Frecuentes</h2>
+                    <div class="title-oval">
+                        <svg viewBox="0 0 640 240" preserveAspectRatio="none">
+                            <defs>
+                                <filter id="glow-faq" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur stdDeviation="6" result="blur"/>
+                                    <feFlood flood-color="#64ccc5" flood-opacity="0.5"/>
+                                    <feComposite in2="blur" operator="in"/>
+                                    <feMerge>
+                                        <feMergeNode/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse class="oval-path" cx="320" cy="120" rx="300" ry="85" filter="url(#glow-faq)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center mb-5">Encuentra respuestas a las dudas más comunes sobre nuestros servicios legales.</p>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1">
+                            ¿Cómo solicito una consulta gratuita?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Haz clic en <strong>"CONSULTA A UN ABOGADO GRATIS"</strong> arriba o llena el formulario. Te respondemos en <strong>menos de 24h</strong> por WhatsApp o email.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2">
+                            ¿Cuáles son sus honorarios?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <strong>Si no ganamos, no cobramos</strong> en asuntos de usura, revolving y cláusulas abusivas. Para el resto de asuntos ofrecemos estudio de viabilidad gratuito y proporcionamos presupuesto detallado sin compromiso.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3">
+                            ¿Cuánto tiempo tardan en resolver un caso?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            El tiempo depende de la naturaleza del caso y de los tribunales.
+                            <ul class="mb-0">
+                                <li>Extrajudicial: <strong>1–3 meses</strong></li>
+                                <li>Judicial: <strong>6–18 meses</strong></li>
+                            </ul>
+                            Generalmente, informamos del tiempo estimado tras la consulta inicial y trabajamos para resolverlo lo antes posible.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4">
+                            ¿Qué necesito para reclamar un producto bancario?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Solo <strong>DNI + contrato + 3 últimos recibos</strong>. Si no dispone de esta documentación, <strong>nosotros se la pedimos al banco</strong>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <p class="text-muted mb-0">
+                    ¿Dudas? <a href="#contacto" class="text-success fw-bold text-decoration-underline">Contáctanos</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <div class="title-wrapper">
+                    <h2>Contáctanos</h2>
+                    <div class="title-oval">
+                        <svg viewBox="0 0 500 240" preserveAspectRatio="none">
+                            <defs>
+                                <filter id="glow-contacto" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur stdDeviation="6" result="blur"/>
+                                    <feFlood flood-color="#64ccc5" flood-opacity="0.5"/>
+                                    <feComposite in2="blur" operator="in"/>
+                                    <feMerge>
+                                        <feMergeNode/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse class="oval-path" cx="250" cy="120" rx="230" ry="85" filter="url(#glow-contacto)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form id="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" name="name" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" name="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+
+                        <!-- CAMPOS OCULTOS WEB3FORMS -->
+                        <input type="hidden" name="access_key" value="ebf89d4b-74ce-4f28-9c29-740e03ac6645">
+                        <input type="hidden" name="subject" value="Nuevo mensaje desde Jurentis.es">
+
+                        <div class="btn-center-wrapper mt-4">
+                            <button type="submit" id="submit-btn" class="mx-auto d-block">
+                                Enviar Consulta
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3>Información de Contacto</h3>
+                    <p><strong>Teléfono:</strong> <a href="tel:+34672857131">+34 672 85 71 31</a></p>
+                    <p><strong>Correo:</strong> <a href="mailto:info@jurentis.es">info@jurentis.es</a></p>
+                    <p><strong>Dirección:</strong> C/ Rafael de Riego, 39, Madrid</p>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.5!2d-3.686!3d40.408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42262b0d5e1b0d%3A0x9a6c1f8b1e2f3a4b!2sC.%20Rafael%20de%20Riego%2C%2039%2C%2028010%20Madrid!5e0!3m2!1ses!2ses!4v1698765432100!5m2!1ses!2ses"
+                        width="100%" height="250" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-2">© 2025 Jurentis. Todos los derechos reservados.</p>
+            <p class="mb-2">
+                <a href="https://www.instagram.com/jurentis.abogados" target="_blank" class="text-white mx-2" aria-label="Instagram">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61552211551555" target="_blank" class="text-white mx-2" aria-label="Facebook">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="https://www.tiktok.com/@jurentis" target="_blank" class="text-white mx-2" aria-label="TikTok">
+                    <i class="fab fa-tiktok fa-lg"></i>
+                </a>
+            </p>
+            <p class="mb-0 small">
+                <a href="aviso-legal.html" class="text-white text-decoration-underline">Aviso Legal</a> · 
+                <a href="politica-privacidad.html" class="text-white text-decoration-underline">Política de Privacidad</a> · 
+                <a href="politica-cookies.html" class="text-white text-decoration-underline">Política de Cookies</a>
+            </p>
+            <p class="mb-0"><a href="#inicio" class="text-white text-decoration-underline">Volver arriba</a></p>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP FIJO -->
+    <a href="https://wa.me/+34672857131?text=Hola,%20quiero%20una%20consulta%20gratuita" 
+       class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- BANNER DE COOKIES (¡AÑADIDO Y PERFECTAMENTE INTEGRADO!) -->
+    <div id="cookie-banner">
+        <div class="cookie-content container">
+            <p>
+                Usamos cookies propias y de terceros para mejorar tu experiencia y realizar análisis estadístico. 
+                Si continúas navegando, consideramos que aceptas su uso. 
+                <a href="politica-cookies.html">Más información</a>
+            </p>
+            <div class="cookie-buttons">
+                <button class="btn-config" onclick="configurarCookies()">Configurar</button>
+                <button class="btn-aceptar" onclick="aceptarCookies()">Aceptar todas</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js?v=7.3"></script>
+
+</body>
+</html>
+
+
+
